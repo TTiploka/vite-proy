@@ -4,7 +4,7 @@ function App() {
     <>
 
   <section className='overflow-x-hidden'>
-  <div className='bg-stone-900 h-screen w-screen grid grid-cols-4 gap-2 p-20'> 
+  <div className='bg-stone-900 h-screen w-screen md:w-20 grid grid-cols-4 gap-2 p-20'> 
   <button className='bg-blue-400 rounded-md p-2 text-white' >1</button>
   <button className='bg-blue-400 rounded-md p-2 text-white' >2</button>
   <button className='bg-blue-400 rounded-md p-2 text-white' >3</button>
