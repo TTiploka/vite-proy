@@ -3,12 +3,12 @@ function App() {
   return (
     <>
 
-  <section className='overflow-x-hidden'>
+  <section className='overflow-x-hidden '>
   <div className='bg-stone-900 h-screen w-screen grid grid-cols-4 gap-2 p-20'> 
   <button className='bg-blue-400 rounded-md p-2 text-white' >1</button>
   <button className='bg-blue-400 rounded-md p-2 text-white' >2</button>
   <button className='bg-blue-400 rounded-md p-2 text-white' >3</button>
-  <button className='bg-blue-400 rounded-md p-2 text-white' >4</button>
+  <button className='bg-blue-400 rounded-md p-3 text-white' >4</button>
   <button className='bg-blue-400 rounded-md p-2 text-white' >5</button>
   <button className='bg-blue-400 rounded-md p-2 text-white' >6</button>
   <button className='bg-blue-400 rounded-md p-2 text-white' >7</button>
