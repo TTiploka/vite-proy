@@ -4,7 +4,13 @@ function App() {
     <>
 
   <section className='overflow-x-hidden'>
-  <div className='bg-stone-900 h-screen w-screen md:w-20 grid grid-cols-4 gap-2 p-20'> 
+  <div className='bg-stone-900 h-screen w-screen grid grid-cols-5 gap-2 p-20'> 
+  <button className='bg-slate-600	 rounded-md p-2 text-white' >PI</button>
+  <button className='bg-slate-600 rounded-md p-2 text-white' >e</button>
+  <button className='bg-slate-600 rounded-md p-2 text-white' >|n|</button>
+  <button className='bg-slate-600 rounded-md p-2 text-white' >c</button>
+  <button className='bg-slate-600 rounded-md p-2 text-white' >X</button>
+  <div className='bg-stone-900 w-full col-span-3 row-span-4 grid grid-cols-3  gap-2 p-0'>
   <button className='bg-blue-400 rounded-md p-2 text-white' >1</button>
   <button className='bg-blue-400 rounded-md p-2 text-white' >2</button>
   <button className='bg-blue-400 rounded-md p-2 text-white' >3</button>
@@ -14,12 +20,19 @@ function App() {
   <button className='bg-blue-400 rounded-md p-2 text-white' >7</button>
   <button className='bg-blue-400 rounded-md p-2 text-white' >8</button>
   <button className='bg-blue-400 rounded-md p-2 text-white' >9</button>
+  <button className='bg-blue-400 rounded-md p-2 text-white' >+/-</button>
   <button className='bg-blue-400 rounded-md p-2 text-white' >0</button>
-  <button className='bg-blue-400 rounded-md p-2 text-white' >+</button>
-  <button className='bg-blue-400 rounded-md p-2 text-white' >-</button>
-  <button className='bg-blue-400 rounded-md p-2 text-white' >*</button>
-  <button className='bg-blue-400 rounded-md p-2 text-white' >/</button>
-  <button className='bg-blue-400 rounded-md p-2 col-span-2 text-white' >=</button>
+  <button className='bg-blue-400 rounded-md p-2 text-white' >.</button>
+  </div>
+  <div className='bg-stone-900 w-full col-span-2 row-span-4 grid grid-cols-2 gap-2 p-0'>
+  <button className='bg-slate-600 rounded-md p-2 text-white' >+</button>
+  <button className='bg-slate-600 rounded-md p-2 text-white' >-</button>
+  <button className='bg-slate-600 rounded-md p-2 text-white' >*</button>
+  <button className='bg-slate-600 rounded-md p-2 text-white' >/</button>
+  <button className='bg-slate-600 rounded-md p-2 text-white' >sin</button>
+  <button className='bg-slate-600 rounded-md p-2 text-white' >cos</button>
+  <button className='bg-slate-600 rounded-md p-2 text-white col-span-2' >=</button>
+  </div>
   </div>
   <div className='bg-stone-900 h-screen w-screen grid grid-cols-3 gap-5'> 
   <button className='bg-blue-400 rounded-md p-2 text-white' ></button>
