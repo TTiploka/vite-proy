@@ -7,7 +7,9 @@ function App() {
     
     <div className='bg-stone-900 h-screen w-screen grid grid-cols-7 gap-2 p-20'>
       <div className='bg-stone-900 rounded-md text-white col-span-5 grid gap-2 text-2xl' >
-        <div className="border rounded-md row-span-3"></div>
+        <div className="border rounded-md row-span-3 p-0" >
+          <input type="text" className="bg-stone-900 text-white m-0 ml-52 mt-20 bottom-2  text-2xl  " />
+        </div>
         <div className="flex flex-row gap-2 ">
           <button className="basis-1/5 rounded-md bg-slate-600 shadow-lg hover:shadow-cyan-500/50	text-white">PI</button>
           <button className="basis-1/5 rounded-md bg-slate-600 shadow-lg hover:shadow-cyan-500/50	text-white">e</button>
