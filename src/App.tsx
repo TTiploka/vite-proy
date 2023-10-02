@@ -1,3 +1,4 @@
+import Btn from "./components/Btn"
 
 function App() {
   return (
@@ -11,10 +12,10 @@ function App() {
             <input type="text" className="border rounded-md p-4 w-full bg-stone-900 text-white m-0 bottom-2  text-4xl" />
 
             <div className="flex flex-row gap-2 ">
-              <button className="basis-1/5 rounded-md bg-slate-600 shadow-lg hover:shadow-cyan-500/50	text-white">PI</button>
-              <button className="basis-1/5 rounded-md bg-slate-600 shadow-lg hover:shadow-cyan-500/50	text-white">e</button>
-              <button className="basis-1/5 rounded-md bg-slate-600 shadow-lg hover:shadow-cyan-500/50	text-white">|n|</button>
-              <button className="basis-1/5 rounded-md bg-slate-600 shadow-lg hover:shadow-cyan-500/50	text-white">C</button>
+              <Btn text="PI"></Btn>
+              <Btn text="e"></Btn>
+              <Btn text="|n|"></Btn>
+              <Btn text="C"></Btn>
               <button className="basis-1/5 rounded-md bg-slate-600 shadow-lg hover:shadow-cyan-500/50	text-white"><button className="bg-slate-950 w-1/3  border border-white rounded rounded-l-full ">X</button></button>
             </div>
             <div className="grid grid-cols-5 gap-2 row-span-4">
