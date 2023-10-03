@@ -16,7 +16,9 @@ function App() {
               <Btn class='basis-1/5'>e</Btn>
               <Btn class='basis-1/5'>|n|</Btn>
               <Btn class='basis-1/5'>C</Btn>
-              <button className="basis-1/5 rounded-md bg-slate-600 shadow-lg hover:shadow-cyan-500/50	text-white"><button className="bg-slate-950 w-1/3  border border-white rounded rounded-l-full ">X</button></button>
+              <Btn class="basis-1/5">
+                <span className="bg-slate-950 w-1/3  border border-white rounded rounded-l-full ">X</span>
+              </Btn>
             </div>
             <div className="grid grid-cols-5 gap-2 row-span-4">
               <div className="rounded-md bg-stone-900 col-span-3 grid grid-cols-3 gap-2 ">
